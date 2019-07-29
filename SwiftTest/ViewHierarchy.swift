@@ -4,7 +4,7 @@
 import Foundation
 import UIKit
 
-@objc class Node : NSObject {
+@objcMembers class Node : NSObject {
     let nodeId: String
     let frame: CGRect
     let children: [Node]
