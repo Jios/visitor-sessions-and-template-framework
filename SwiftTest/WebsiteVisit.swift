@@ -3,7 +3,7 @@
 
 import Foundation
 
-@objc class WebsiteVisit : NSObject {
+@objcMembers class WebsiteVisit : NSObject {
     let visitorId: String
     let timestamp: Int
 
