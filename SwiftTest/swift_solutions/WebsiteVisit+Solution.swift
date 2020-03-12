@@ -8,7 +8,7 @@ extension WebsiteVisit
     {
         // time complexity: O(n)
         // space complexity: O(n)
-        // where n is the number of websiteVisits.count
+        // where n is the number of WebsiteVisit objects
                 
         var numSessions = 0
         var hash: [String: Int] = [:]
